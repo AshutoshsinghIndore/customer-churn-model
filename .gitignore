@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Package builds
+build/
+dist/
+*.egg-info/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Datasets and large files
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+
+# Model files and checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+models/
+
+# TensorBoard and experiment logs
+runs/
+events.out.tfevents.*
+tensorboard/
+
+# PyTorch Lightning & other ML tools
+lightning_logs/
+wandb/
+mlruns/
+
+# Cache
+.cache/
+*.cache
+
+# OS & Editor Specific
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# VSCode
+.vscode/
+
+# Colab
+*.ipynb_save
